@@ -23,13 +23,17 @@
 		* K is the maximum distance a station master can be moves from his place
 	* Then L lines follow containing the position of L Station Masters
 	* Constraints:
-		* L <= 10^5
+		* L < N <= 10^5
 		* N,K are integers
 
 - The folder TestCases contains various Test Cases to test the program
 - To run the program against the testcase:
 ```
 -$ cat <testCase> | ./postElectionTransfer
+```
+- To automatically create input test cases:
+```
+-$ python createInput.py <Number of Stations N> 
 ```
 
 ###Pseudo Code

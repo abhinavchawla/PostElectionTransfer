@@ -1,5 +1,5 @@
 import random
-n =1000
+n =100000
 l = random.randint(1,n)
 k = random.randint(1,n)
 lst = []
