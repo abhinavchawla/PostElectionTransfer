@@ -9,12 +9,12 @@
 ###General Usage:
 - To Compile:
 ```
-g++ postElectionTransfer-Binary.cc -o postElectionTransfer
+-$ g++ postElectionTransfer-Binary.cc -o postElectionTransfer
 ```
 
 - To Run:
 ```
-./postElectionTransfer
+-$ ./postElectionTransfer
 ```
 - Input Format
 	* The First line contains 3 Integers N L K Where:
@@ -29,5 +29,24 @@ g++ postElectionTransfer-Binary.cc -o postElectionTransfer
 - The folder TestCases contains various Test Cases to test the program
 - To run the program against the testcase:
 ```
-cat <testCase> | ./postElectionTransfer
+-$ cat <testCase> | ./postElectionTransfer
 ```
+
+###Pseudo Code
+//TBD
+
+###DataScructures Used
+Arrays ? //TBD
+
+###Contribution by each team member
+- Abhinav Chawla
+	* Algorithm
+	* implementing Pseudo Code in C++ (Linear Search Version)
+-Apoorv Vikram Singh
+	* Algorithm
+	* Implementing varoious modules of the project in C++
+	* Managing the team to create this Project
+- Siddartha Sekhar Padhi
+	* Algorithm
+	* Implementing Pseudo Code in c++ (Binary Search Version)
+	* Creating README files
