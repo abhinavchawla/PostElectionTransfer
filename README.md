@@ -42,7 +42,7 @@ Arrays ? //TBD
 - Abhinav Chawla
 	* Algorithm
 	* implementing Pseudo Code in C++ (Linear Search Version)
--Apoorv Vikram Singh
+- Apoorv Vikram Singh
 	* Algorithm
 	* Implementing varoious modules of the project in C++
 	* Managing the team to create this Project
