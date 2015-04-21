@@ -2,12 +2,12 @@
 ##Design & Analysis of Algorithms Project, Spring 2015
 
 ###General Usage:
--To Compile:
-'''
+- To Compile:
+```
 g++ postElectionTransfer-Binary.cc -o pet
-'''
+```
 
--To Run:
-'''
+- To Run:
+```
 ./pet
-'''
+```
