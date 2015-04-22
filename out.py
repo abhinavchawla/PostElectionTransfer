@@ -1,6 +1,6 @@
 import random
 n =100000
-l = random.randint(1,n)
+l = random.randint(1,n/2)
 k = random.randint(1,n)
 lst = []
 x=0
