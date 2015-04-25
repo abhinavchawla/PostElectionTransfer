@@ -45,11 +45,11 @@ Arrays ? //TBD
 ###Contribution by each team member
 - Abhinav Chawla
 	* Algorithm
-	* implementing Pseudo Code in C++ (Linear Search Version)
+	* Implementing Pseudo Code in C++ (Binary Search Version)
 - Apoorv Vikram Singh
 	* Algorithm
 	* Implementing varoious modules of the project in C++
-	* Managing the team to create this Project
+	* Creating the Test Cases
 - Siddartha Sekhar Padhi
 	* Algorithm
 	* Implementing Pseudo Code in c++ (Binary Search Version)
