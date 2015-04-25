@@ -4,6 +4,7 @@
   d) Date: 24/4/2015
   e) Description: The code here helps in  achieving its goal of transferring station masters to different stations by some distance so as to                   maximize the minimum distance between any pair within the restrictions of the contract.
   f) Constraints: L<10^5 */
+
 #include<iostream>
 #include<algorithm>
 using namespace std;
