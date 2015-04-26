@@ -1,5 +1,4 @@
 ##INPUT / OUTPUT FORMAT
-##---------------------
 
 ###INPUT
 	* The first line contains three integers n, l and k.
