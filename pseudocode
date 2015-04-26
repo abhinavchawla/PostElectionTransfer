@@ -1,0 +1,54 @@
+1. n is the total number of stations. 
+2. l is the number of stations which have station masters. 
+3. k is the maximum number of stations by which a station master can move. 
+4. m[i] is the position of the ith station master originally.
+
+MAXIMIZE-THE-MINIMUM(n,l,k,m)
+	
+	t = m
+	int f[l] 
+	f[0] = MAX(1,m[0]-k) 
+	f[l-1] = MIN(m[l-1]+k,n) 
+	ans=1
+	low=1,high=(n/(l-1)) 
+	a = (low+high)/2
+
+      	WHILE low<=high 
+	{
+		FOR i=0 to l-2
+		{
+			IF (f[i] + a) < (m[i+1] - k)  
+				f[i+1] = m[i+1] - k;
+			
+			ELSE IF (f[i]+a) <= m[i+1])  
+				f[i+1] = f[i]+a;
+			
+			ELSE IF (f[i]+a) > (m[i+1] + k) 
+			{
+				high =a-1;
+				a = (low+high)/2;	
+				break; 
+
+			}
+			ELSE IF (f[i]+a) >= m[i+1]) 
+				f[i+1] = f[i] + a;
+			
+			IF i==l-3
+			{
+				IF (f[l-1]-f[l-2]) >= a)
+				{
+					ans = a;
+					low = a+1;
+					for(int j=0;j<l;j++)
+						t[j] = f[j];
+				}
+				ELSE
+					high = a-1;
+				a = (low+high)/2;
+			}
+		}
+	
+	}
+		
+	PRINT ans
+	PRINT t
