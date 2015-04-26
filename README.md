@@ -83,7 +83,7 @@ MAXIMIZE-THE-MINIMUM(n,l,k,m)
 ```
 
 
-###DataScructures Used
+###Data Structures Used
 Arrays 
 
 ###Algorithms Used
