@@ -1,9 +1,11 @@
-/*a) Author(s): Abhinav Chawla, Apoorv Vikram Singh, Siddartha Sekhara Padhi
-  b) Email Id: Abhinav.Chawla@iiitb.org, ApoorvVikram.Singh@iiitb.org, SiddarthaSekhara.Padhi@iiitb.org
-  c) Revision Number: 8
+/*a) Author(s): Abhinav Chawla, Apoorv Vikram Singh, Siddartha Sekhar Padhi
+  b) Email Id: Abhinav.Chawla@iiitb.org, ApoorvVikram.Singh@iiitb.org, SiddarthaSekhar.Padhi@iiitb.org
+  c) Version: 2.3(Version 1 consisted of Linear Search)
   d) Date: 24/4/2015
   e) Description: The code here helps in  achieving its goal of transferring station masters to different stations by some distance so as to                   maximize the minimum distance between any pair within the restrictions of the contract.
-  f) Constraints: L<10^5 */
+  f) Constraints: L<10^5
+  g) Order = O(L(lg(N/L)))
+*/
 
 #include<iostream>
 #include<algorithm>
@@ -84,7 +86,6 @@ int main()
 				a = (low+high)/2;
 			}
 		}
-
 	}
 		
 	cout<<ans<<endl;
